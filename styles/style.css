@@ -123,6 +123,8 @@ a {
     width: 180px;
     height: 54px;
     padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
     font-size: 20px;
     background-color: #ffffff;
     margin-left: 5px;
@@ -131,9 +133,48 @@ a {
     width: 180px;
     height: 54px;
     padding: 5px 10px;
+    border-color: #FF5400;
     border-radius: 10px;
     font-size: 20px;
+    margin-left: 5px;
     background-color: #FF5400;
     color: #ffffff;
 
+}
+/* style of popular section */
+.popular-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 550px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+  padding: 20px; 
+}
+.popular-text{
+    width: 50%;
+}
+li{
+    list-style-type: disc;
+   
+}
+ .popular-text h2,p{
+      margin-top: 36px;
+      font-size: 16px;                       
+}
+.list-item{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.last-dscr{
+ margin-bottom: 36px;   
+}
+.popular-section img{
+    width: 50%;
+    object-fit: cover;
+    width: 540px;
+    margin-left: 20px;
 }
