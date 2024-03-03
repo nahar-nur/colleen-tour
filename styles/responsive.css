@@ -27,3 +27,20 @@
     }
 
 }
+@media screen and (max-width: 676px) {
+    .banner-section{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+        text-align: center;
+    }
+    .btn-box{
+        
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+    }
+    .centered h1,p{
+        text-align: center;
+    }
+}
